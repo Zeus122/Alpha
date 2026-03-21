@@ -1,0 +1,163 @@
+@import "tailwindcss";
+
+@theme {
+  --color-obsidian: #0D0D0D;
+  --color-obsidian-light: #141414;
+  --color-gunmetal: #2C2C2E;
+  --color-gunmetal-light: #3A3A3C;
+  --color-primal-red: #E21B1B;
+  --color-primal-red-hover: #FF2D2D;
+  --color-dark-crimson: #8B0000;
+  --color-frost: #F2F2F2;
+  --color-frost-80: rgba(242, 242, 242, 0.8);
+  --color-frost-60: rgba(242, 242, 242, 0.6);
+  --color-frost-40: rgba(242, 242, 242, 0.4);
+  --color-frost-20: rgba(242, 242, 242, 0.2);
+  --color-border: rgba(255, 255, 255, 0.06);
+  --color-border-hover: rgba(226, 27, 27, 0.2);
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-inter: "Inter", sans-serif;
+}
+
+/* ===== Base ===== */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-inter);
+  background-color: var(--color-obsidian);
+  color: var(--color-frost);
+  overflow-x: hidden;
+}
+
+::selection {
+  background-color: var(--color-primal-red);
+  color: var(--color-frost);
+}
+
+/* ===== Scrollbar ===== */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-obsidian);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-dark-crimson);
+  border-radius: 2px;
+}
+
+/* ===== Headings ===== */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-montserrat);
+  letter-spacing: -0.02em;
+}
+
+/* ===== Cinematic Grain Overlay ===== */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 128px 128px;
+}
+
+/* ===== Vignette Overlay ===== */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 9998;
+  pointer-events: none;
+  background: radial-gradient(ellipse at center, transparent 50%, rgba(0,0,0,0.4) 100%);
+}
+
+/* ===== Matte Card ===== */
+.matte-card {
+  background: var(--color-gunmetal);
+  border: 1px solid var(--color-border);
+  transition: all 0.3s ease;
+}
+.matte-card:hover {
+  border-color: var(--color-border-hover);
+  box-shadow: 0 10px 40px rgba(139, 0, 0, 0.15);
+  transform: translateY(-4px);
+}
+
+/* ===== Glow Effects ===== */
+.red-glow {
+  box-shadow: 0 0 20px rgba(226, 27, 27, 0.3);
+}
+.red-glow-hover:hover {
+  box-shadow: 0 0 30px rgba(226, 27, 27, 0.4);
+}
+
+.crimson-depth {
+  box-shadow: 0 10px 40px rgba(139, 0, 0, 0.4);
+}
+
+/* ===== Gradient Text ===== */
+.gradient-text-red {
+  background: linear-gradient(135deg, var(--color-frost) 0%, var(--color-primal-red) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ===== Gradient Overlay ===== */
+.gradient-overlay {
+  background: linear-gradient(180deg, transparent 0%, rgba(139, 0, 0, 0.15) 100%);
+}
+
+/* ===== Section Depth ===== */
+.section-dark {
+  background: linear-gradient(180deg, var(--color-obsidian) 0%, var(--color-gunmetal) 50%, var(--color-obsidian) 100%);
+}
+.section-alt {
+  background: var(--color-obsidian-light);
+}
+
+/* ===== Video / Hero Overlay ===== */
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(13, 13, 13, 0.8) 0%,
+    rgba(13, 13, 13, 0.3) 40%,
+    rgba(13, 13, 13, 0.85) 100%
+  );
+  z-index: 1;
+}
+
+/* ===== Floating Animation ===== */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* ===== Pulse Glow ===== */
+@keyframes pulse-red {
+  0%, 100% { box-shadow: 0 0 15px rgba(226, 27, 27, 0.15); }
+  50% { box-shadow: 0 0 30px rgba(226, 27, 27, 0.3); }
+}
+.animate-pulse-red {
+  animation: pulse-red 3s ease-in-out infinite;
+}
+
+/* ===== Marquee ===== */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 25s linear infinite;
+}

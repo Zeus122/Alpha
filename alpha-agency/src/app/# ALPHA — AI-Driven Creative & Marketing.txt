@@ -1,0 +1,97 @@
+# ALPHA — AI-Driven Creative & Marketing Agency
+
+[ALPHA.](http://localhost:3001#hero)
+[Home](http://localhost:3001#hero)
+[Services](http://localhost:3001#services)
+[Work](http://localhost:3001#portfolio)
+[About](http://localhost:3001#about)
+[Contact](http://localhost:3001#contact)
+[Get Started](http://localhost:3001#contact)
+AI-Driven Creative Agency
+
+# MOVELIKE ANINJA.
+Tired of agencies that talk big and deliver little?We build campaigns that prove their worth in numbers.
+[Contact Us](http://localhost:3001#contact)
+[View Our Work](http://localhost:3001#portfolio)
+What We Do
+
+## OUR SERVICES
+
+### Branding
+We craft identities that command attention. From logos to full brand systems, your visual story starts here.
+
+### Social Media
+Strategic content that builds communities and drives engagement across all platforms.
+
+### Web Design
+Stunning, high-performance websites that convert visitors into loyal customers.
+
+### SEO
+Data-driven optimization that puts your brand at the top of search results.
+
+### Content
+Compelling stories, sharp copy, and visuals that make your audience stop scrolling.
+
+### AI Marketing
+Leverage artificial intelligence for predictive analytics, personalization, and campaign optimization.
+Portfolio
+
+## OUR WORK
+Every project is a story. We bring brands to life with strategy, creativity, and measurable results.
+Branding
+
+### Jewel Mou
+
+### Jewel Mou
+Branding
+
+### Samar Alfy Fashion
+
+### Samar Alfy Fashion
+Branding
+
+### Vinca
+
+### Vinca
+Social Media
+
+### Urban Pulse
+
+### Urban Pulse
+Web Design
+
+### NexGen Labs
+
+### NexGen Labs
+AI Marketing
+
+### Echo Studios
+
+### Echo Studios
+About Us
+
+## LET'S GROWTOGETHER
+We are a team of strategists, designers, and developers who are passionate about creating meaningful digital experiences. Every campaign we build is rooted in data and driven by creativity.
+Bold. Measurable. Unforgettable. That's not just a tagline—it's our promise.
+[Work With Us](http://localhost:3001#contact)
+Projects Delivered
+Client Satisfaction
+Happy Clients
+Average ROI
+Testimonials
+
+## WHAT THEY SAY
+"ALPHA transformed our entire digital presence. Their AI-driven approach increased our qualified leads by 340% in just three months. Absolutely game-changing."
+Sarah Johnson
+CEO, NexGen Labs
+Get In Touch
+
+## LET'S TALK.
+Ready to take your brand to the next level? Drop us a message and let's create something measurable, bold, and unforgettable together.
+[ALPHA.](http://localhost:3001#hero)
+[Services](http://localhost:3001#services)
+[Work](http://localhost:3001#portfolio)
+[About](http://localhost:3001#about)
+[Contact](http://localhost:3001#contact)
+© 2026 Alpha Creative Agency. All rights reserved.
+Built with passion & AI-powered creativity
