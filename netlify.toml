@@ -1,0 +1,10 @@
+[build]
+  base = "alpha-agency"
+  command = "npm run build"
+  publish = "alpha-agency/.next"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
