@@ -1,7 +1,7 @@
 [build]
   base = "alpha-agency"
   command = "npm run build"
-  publish = "alpha-agency/.next"
+  publish = ".next"
 
 [build.environment]
   NODE_VERSION = "20"
