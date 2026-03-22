@@ -96,7 +96,7 @@ export async function POST(request: Request) {
     // 4. Send Email via Resend
     const data = await resend.emails.send({
       from: "Alpha Agency <onboarding@resend.dev>", // Required for Resend free tier
-      to: ["alphamediaagency.eg@gmail.com"],
+      to: ["shalabyzeiad@gmail.com"],
       replyTo: email,
       subject: "🔥 New Lead from Website",
       html: htmlTemplate,
