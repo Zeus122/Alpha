@@ -15,6 +15,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://alpha-agency.netlify.app"),
   title: "ALPHA — Digital Growth Partner",
   description:
     "First in Mind, First in Results. Bold, measurable, and unforgettable marketing powered by strategy and precision.",
@@ -26,6 +27,18 @@ export const metadata: Metadata = {
     "digital marketing",
     "alpha agency",
   ],
+  openGraph: {
+    title: "ALPHA — Digital Growth Partner",
+    description: "Bold, measurable, and unforgettable marketing powered by strategy and precision.",
+    type: "website",
+    locale: "en_US",
+    siteName: "Alpha Agency",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "ALPHA — Digital Growth Partner",
+    description: "Bold, measurable, and unforgettable marketing.",
+  },
 };
 
 export default function RootLayout({

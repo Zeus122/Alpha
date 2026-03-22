@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { Palette, Share2, Globe, Search, PenTool, Cpu } from "lucide-react";
 
+
 const services = [
   {
     icon: Palette,
