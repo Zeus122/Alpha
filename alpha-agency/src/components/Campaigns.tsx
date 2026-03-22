@@ -50,19 +50,14 @@ export default function Campaigns() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.5 }}
-          className="mb-20 text-center md:text-left"
+          className="text-center mb-20"
         >
-          <p className="text-[#E21B1B] text-xs font-bold tracking-[0.4em] uppercase mb-4">
-            حملات ألفا التسويقية الخاصة
+          <h2 className="text-4xl md:text-6xl lg:text-7xl font-black font-[family-name:var(--font-montserrat)] uppercase">
+            OUR <span className="gradient-text-red">CAMPAIGNS</span>
+          </h2>
+          <p className="text-[#F2F2F2]/50 max-w-md text-sm leading-relaxed mx-auto mt-6">
+            Explore Alpha&apos;s internal marketing campaigns, where we practice exactly what we preach. Real strategy, powerful branding, and flawless execution.
           </p>
-          <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
-            <h2 className="text-4xl md:text-6xl lg:text-7xl font-black font-[family-name:var(--font-montserrat)] uppercase">
-              OUR <span className="gradient-text-red">CAMPAIGNS</span>
-            </h2>
-            <p className="text-[#F2F2F2]/50 max-w-md text-sm leading-relaxed">
-              Explore Alpha&apos;s internal marketing campaigns, where we practice exactly what we preach. Real strategy, powerful branding, and flawless execution.
-            </p>
-          </div>
         </motion.div>
 
         {/* Grid layout */}
